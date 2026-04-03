@@ -1,0 +1,12 @@
+[project]
+name = "rfdetr-detection-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "inference>=1.2.0",
+    "mediapipe>=0.10.14",
+    "opencv-python>=4.10.0.84",
+    "supervision>=0.27.0.post2",
+]
